@@ -99,9 +99,6 @@ pigDice.prototype.initial = function () {
 
 // USER INTERFACE LOGIC
 $(document).ready(function () {
-   /* $("#description h4").click(function () {
-        $(".gameplay").slideToggle();
-    })*/
     $("#playBtn").click(function (event) {
         var playerOne = $("#player1").val().toUpperCase();
         var playerTwo = $("#player2").val().toUpperCase();
