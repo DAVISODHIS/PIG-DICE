@@ -19,7 +19,7 @@ pigDice.prototype.rollDice = function () {
         $("#dice-display").show();
         $("#dice-display").text(dice);
     } else {
-        alert("Oh no you got a 1");
+        alert("Oops !,its a 1");
         this.otherPlayer();
         $("#dice-display").text("");
     }
@@ -99,9 +99,9 @@ pigDice.prototype.initial = function () {
 
 // USER INTERFACE LOGIC
 $(document).ready(function () {
-    $("#description h4").click(function () {
+   /* $("#description h4").click(function () {
         $(".gameplay").slideToggle();
-    })
+    })*/
     $("#playBtn").click(function (event) {
         var playerOne = $("#player1").val().toUpperCase();
         var playerTwo = $("#player2").val().toUpperCase();

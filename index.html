@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="images/icon.png">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title> PIG DICE</title>
 </head>
 
@@ -53,11 +58,11 @@
                     <p class="roundScore"><span class="roundScoreDisplay1">0</span></p>
                 </div>
                 <div class="columns col-sm-7 col-md-3" id="game-board">
-                    <h5>Current Player: <span id="current-player"></span></h5>
+                    <h5 class="currentScore">Current Player: <span id="current-player"></span></h5>
                     <div class="buttons">
                         <div id="dice-display"></div>
-                        <button class="btn player-roll btn-sm btn-play">Roll Dice</button>
-                        <button class="btn player-hold btn-sm btn-play">Hold Score</button>
+                        <button class="btn player-roll btn-sm btn-play">Roll</button>
+                        <button class="btn player-hold btn-sm btn-play">Hold</button>
                     </div>
                 </div>
                 <div class="columns col-sm-7 col-md-4" id="user2">
