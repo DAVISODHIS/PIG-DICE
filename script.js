@@ -99,12 +99,34 @@ pigDice.prototype.initial = function () {
 
 // USER INTERFACE LOGIC
 $(document).ready(function () {
-            $("#description h4").click(function () {
-                $(".gameplay").slideToggle();
-            })
-            $("#playBtn").click(function (event) {
-                        var playerOne = $("#player1").val().toUpperCase();
-                        var playerTwo = $("#player2").val().toUpperCase();
-                        $("#description").hide();
-                        $("#game").show();
-                        event.preventDefault();
+    $("#description h4").click(function () {
+        $(".gameplay").slideToggle();
+    })
+    $("#playBtn").click(function (event) {
+        var playerOne = $("#player1").val().toUpperCase();
+        var playerTwo = $("#player2").val().toUpperCase();
+        $("#description").hide();
+        $("#game").show();
+        event.preventDefault();
+        game = new pigDice(playerOne, playerTwo);
+        $("#settings").hide();
+        $("#game").show();
+        game.initial();
+    })
+    $("#starter").click(function (event) {
+
+    })
+    $(".player-roll").click(function () {
+        game.rollDice();
+    })
+    $(".player-hold").click(function () {
+        game.hold();
+    })
+    $("#reset").click(function () {
+        location.reload();
+    })
+    $("#rematch").click(function () {
+        game.initial();
+        game.newGame();
+    })
+})
