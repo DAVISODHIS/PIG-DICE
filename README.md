@@ -44,4 +44,5 @@ Use this command in your terminal.git clone https://github.com/DAVISODHIS/PIG-DI
 you can use the site through:https://davisodhis.github.io/PIG-DICE/
 
 ------------------------------------------------------------------------------------------------------
-lincense:MIT
+## lincense:
+MIT
