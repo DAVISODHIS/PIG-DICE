@@ -18,9 +18,10 @@ If the player rolls a 1, they score nothing and it becomes the next player's tur
 4. GIT
 
 -------------------------------------------------------------------------------------------------------
-Program behaviour
+## Program behaviour
+
 Behaviour|	Input|	Result(output)|
-|---------:|:--------:|:-----------------:|
+|-------:|:--------:|:-----------------:|
 User rolls a 2|	2 is added to the score|	2|
 User rolls a 3|	3 is added to the score	|3|
 User rolls a 4|	4 is added to the score	|4|
