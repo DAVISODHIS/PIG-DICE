@@ -98,6 +98,9 @@ h3 {
 .currentScore{
   color:black;
 }
+#current-player{
+  color:black;
+}
 
 .roundScore {
   text-align: center;
