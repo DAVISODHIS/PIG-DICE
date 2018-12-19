@@ -20,15 +20,7 @@ If the player rolls a 1, they score nothing and it becomes the next player's tur
 -------------------------------------------------------------------------------------------------------
 ## Program behaviour
 
-Behaviour|	Input|	Result(output)|
-|-------:|:--------:|:-----------------:|
-User rolls a 2|	2 is added to the score|	2|
-User rolls a 3|	3 is added to the score	|3|
-User rolls a 4|	4 is added to the score	|4|
-User rolls a 5|	5 is added to the score	|5|
-User rolls a 6|	6 is added to the score	|6|
-User rolls a 1|	Loses the round score and loses their turn|	0|
-User reaches 100|	100	|Winner!!|
+enter name or if you are two players both of you can enter both of your names and you can enjoy the game.
 
 ------------------------------------------------------------------------------------------------------
 ## Prerequisites
@@ -45,4 +37,3 @@ you can use the site through:https://davisodhis.github.io/PIG-DICE/
 
 ------------------------------------------------------------------------------------------------------
 ## lincense:
-MIT
